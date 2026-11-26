@@ -1,0 +1,5 @@
+distancia,ligacao,ARI
+DTW,average,0.131
+DTW,complete,0.178
+Euclidiana,average,0.104
+Euclidiana,complete,0.144

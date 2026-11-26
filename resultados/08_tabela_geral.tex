@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering\footnotesize
+\caption{Desempenho no teste com sinalizantes nunca vistos (média $\pm$ desvio, 4 rodadas $\times$ 3 sementes).}\label{tab:geral}
+\begin{tabular}{llccc}
+\toprule
+grupo & modelo & F1 (\%) & Acc. (\%) & F1 calib. (\%) \\
+\midrule
+Baseline ingênua & Classe majoritária & 0{,}5 $\pm$ 0{,}0 & 5{,}2 & — \\
+Baseline clássica & 1-NN + DTW & 61{,}5 $\pm$ 6{,}0 & 62{,}1 & — \\
+A1 -- Tabular & Árvore de Decisão & 71{,}2 $\pm$ 2{,}7 & 72{,}2 & — \\
+A2 -- Tabular & Random Forest & 89{,}0 $\pm$ 3{,}6 & 90{,}2 & — \\
+A2 -- Tabular & XGBoost & 87{,}6 $\pm$ 3{,}7 & 88{,}5 & — \\
+B1 -- Convolucional & CNN-1D & 91{,}3 $\pm$ 2{,}5 & 92{,}0 & 91{,}1 $\pm$ 2{,}2 \\
+B2 -- Convolucional & WaveNet & 87{,}9 $\pm$ 2{,}3 & 88{,}7 & 87{,}9 $\pm$ 2{,}5 \\
+C1 -- Recorrente & SimpleRNN & 46{,}4 $\pm$ 10{,}2 & 48{,}1 & 53{,}9 $\pm$ 4{,}6 \\
+C2 -- Recorrente & LSTM & 78{,}2 $\pm$ 3{,}1 & 79{,}6 & 78{,}0 $\pm$ 3{,}8 \\
+C3 -- Recorrente & GRU & 84{,}3 $\pm$ 3{,}7 & 85{,}2 & 83{,}9 $\pm$ 3{,}8 \\
+D -- Híbrido & Conv1D+GRU & 89{,}0 $\pm$ 1{,}4 & 89{,}6 & 88{,}6 $\pm$ 1{,}7 \\
+Melhor combinação & CNN-1D + $\Delta$ & 92{,}6 $\pm$ 3{,}6 & 93{,}5 & — \\
+E -- Bônus I & Transformer multicanal & 90{,}4 $\pm$ 1{,}9 & 91{,}2 & — \\
+E -- Bônus I & PatchTST & 79{,}0 $\pm$ 8{,}3 & 80{,}3 & — \\
+E -- Bônus II & FCN & 90{,}8 $\pm$ 2{,}5 & 91{,}5 & — \\
+E -- Bônus II & ResNet & 84{,}7 $\pm$ 5{,}9 & 85{,}7 & — \\
+E -- Bônus II & InceptionTime & 87{,}3 $\pm$ 3{,}2 & 88{,}2 & — \\
+\bottomrule
+\end{tabular}
+\end{table}

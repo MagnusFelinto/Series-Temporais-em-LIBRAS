@@ -1,0 +1,193 @@
+rodada,tecnica,modelo,semente,f1_macro,tempo_s
+0,bruto,Random Forest,0,0.898,20
+0,bruto,Random Forest,1,0.91,18
+0,bruto,Random Forest,2,0.911,18
+0,bruto,CNN-1D,0,0.906,29
+0,bruto,CNN-1D,1,0.916,24
+0,bruto,CNN-1D,2,0.882,30
+0,bruto,GRU,0,0.823,33
+0,bruto,GRU,1,0.845,39
+0,bruto,GRU,2,0.847,22
+0,bruto,Conv1D+GRU,0,0.886,35
+0,bruto,Conv1D+GRU,1,0.909,34
+0,bruto,Conv1D+GRU,2,0.911,61
+0,MM,Random Forest,0,0.915,26
+0,MM,Random Forest,1,0.916,26
+0,MM,Random Forest,2,0.923,26
+0,MM,CNN-1D,0,0.909,25
+0,MM,CNN-1D,1,0.899,34
+0,MM,CNN-1D,2,0.899,23
+0,MM,GRU,0,0.772,72
+0,MM,GRU,1,0.833,36
+0,MM,GRU,2,0.694,17
+0,MM,Conv1D+GRU,0,0.871,31
+0,MM,Conv1D+GRU,1,0.861,56
+0,MM,Conv1D+GRU,2,0.875,31
+0,FFT,Random Forest,0,0.907,20
+0,FFT,Random Forest,1,0.915,21
+0,FFT,Random Forest,2,0.894,20
+0,FFT,CNN-1D,0,0.903,32
+0,FFT,CNN-1D,1,0.914,31
+0,FFT,CNN-1D,2,0.851,25
+0,FFT,GRU,0,0.822,32
+0,FFT,GRU,1,0.849,40
+0,FFT,GRU,2,0.844,24
+0,FFT,Conv1D+GRU,0,0.875,45
+0,FFT,Conv1D+GRU,1,0.922,40
+0,FFT,Conv1D+GRU,2,0.892,47
+0,Ambas,Random Forest,0,0.902,29
+0,Ambas,Random Forest,1,0.923,28
+0,Ambas,Random Forest,2,0.907,28
+0,Ambas,CNN-1D,0,0.915,27
+0,Ambas,CNN-1D,1,0.883,33
+0,Ambas,CNN-1D,2,0.903,29
+0,Ambas,GRU,0,0.811,54
+0,Ambas,GRU,1,0.843,60
+0,Ambas,GRU,2,0.735,41
+0,Ambas,Conv1D+GRU,0,0.899,44
+0,Ambas,Conv1D+GRU,1,0.871,28
+0,Ambas,Conv1D+GRU,2,0.886,46
+1,bruto,Random Forest,0,0.903,17
+1,bruto,Random Forest,1,0.901,17
+1,bruto,Random Forest,2,0.902,18
+1,bruto,CNN-1D,0,0.942,39
+1,bruto,CNN-1D,1,0.928,30
+1,bruto,CNN-1D,2,0.933,27
+1,bruto,GRU,0,0.805,22
+1,bruto,GRU,1,0.82,31
+1,bruto,GRU,2,0.846,19
+1,bruto,Conv1D+GRU,0,0.878,23
+1,bruto,Conv1D+GRU,1,0.872,34
+1,bruto,Conv1D+GRU,2,0.9,25
+1,MM,Random Forest,0,0.908,25
+1,MM,Random Forest,1,0.905,25
+1,MM,Random Forest,2,0.908,25
+1,MM,CNN-1D,0,0.949,35
+1,MM,CNN-1D,1,0.949,36
+1,MM,CNN-1D,2,0.932,25
+1,MM,GRU,0,0.779,22
+1,MM,GRU,1,0.728,23
+1,MM,GRU,2,0.752,19
+1,MM,Conv1D+GRU,0,0.888,28
+1,MM,Conv1D+GRU,1,0.884,49
+1,MM,Conv1D+GRU,2,0.905,21
+1,FFT,Random Forest,0,0.9,18
+1,FFT,Random Forest,1,0.905,19
+1,FFT,Random Forest,2,0.895,20
+1,FFT,CNN-1D,0,0.946,31
+1,FFT,CNN-1D,1,0.92,31
+1,FFT,CNN-1D,2,0.942,28
+1,FFT,GRU,0,0.811,28
+1,FFT,GRU,1,0.802,24
+1,FFT,GRU,2,0.842,20
+1,FFT,Conv1D+GRU,0,0.867,16
+1,FFT,Conv1D+GRU,1,0.843,22
+1,FFT,Conv1D+GRU,2,0.9,25
+1,Ambas,Random Forest,0,0.898,27
+1,Ambas,Random Forest,1,0.901,27
+1,Ambas,Random Forest,2,0.898,27
+1,Ambas,CNN-1D,0,0.949,37
+1,Ambas,CNN-1D,1,0.921,33
+1,Ambas,CNN-1D,2,0.932,34
+1,Ambas,GRU,0,0.756,25
+1,Ambas,GRU,1,0.72,25
+1,Ambas,GRU,2,0.752,20
+1,Ambas,Conv1D+GRU,0,0.837,19
+1,Ambas,Conv1D+GRU,1,0.823,16
+1,Ambas,Conv1D+GRU,2,0.871,46
+2,bruto,Random Forest,0,0.84,16
+2,bruto,Random Forest,1,0.836,17
+2,bruto,Random Forest,2,0.82,16
+2,bruto,CNN-1D,0,0.938,28
+2,bruto,CNN-1D,1,0.872,26
+2,bruto,CNN-1D,2,0.884,34
+2,bruto,GRU,0,0.836,31
+2,bruto,GRU,1,0.869,71
+2,bruto,GRU,2,0.854,30
+2,bruto,Conv1D+GRU,0,0.867,34
+2,bruto,Conv1D+GRU,1,0.922,33
+2,bruto,Conv1D+GRU,2,0.876,16
+2,MM,Random Forest,0,0.826,24
+2,MM,Random Forest,1,0.828,24
+2,MM,Random Forest,2,0.829,23
+2,MM,CNN-1D,0,0.91,28
+2,MM,CNN-1D,1,0.898,28
+2,MM,CNN-1D,2,0.879,34
+2,MM,GRU,0,0.849,75
+2,MM,GRU,1,0.824,48
+2,MM,GRU,2,0.768,29
+2,MM,Conv1D+GRU,0,0.876,39
+2,MM,Conv1D+GRU,1,0.913,23
+2,MM,Conv1D+GRU,2,0.865,63
+2,FFT,Random Forest,0,0.824,19
+2,FFT,Random Forest,1,0.831,18
+2,FFT,Random Forest,2,0.822,17
+2,FFT,CNN-1D,0,0.906,42
+2,FFT,CNN-1D,1,0.864,33
+2,FFT,CNN-1D,2,0.912,27
+2,FFT,GRU,0,0.837,31
+2,FFT,GRU,1,0.858,32
+2,FFT,GRU,2,0.839,30
+2,FFT,Conv1D+GRU,0,0.871,23
+2,FFT,Conv1D+GRU,1,0.927,42
+2,FFT,Conv1D+GRU,2,0.861,23
+2,Ambas,Random Forest,0,0.832,25
+2,Ambas,Random Forest,1,0.825,25
+2,Ambas,Random Forest,2,0.814,25
+2,Ambas,CNN-1D,0,0.912,30
+2,Ambas,CNN-1D,1,0.866,34
+2,Ambas,CNN-1D,2,0.902,34
+2,Ambas,GRU,0,0.769,41
+2,Ambas,GRU,1,0.791,39
+2,Ambas,GRU,2,0.716,18
+2,Ambas,Conv1D+GRU,0,0.862,28
+2,Ambas,Conv1D+GRU,1,0.845,23
+2,Ambas,Conv1D+GRU,2,0.885,62
+3,bruto,Random Forest,0,0.922,16
+3,bruto,Random Forest,1,0.919,18
+3,bruto,Random Forest,2,0.918,16
+3,bruto,CNN-1D,0,0.925,26
+3,bruto,CNN-1D,1,0.91,30
+3,bruto,CNN-1D,2,0.903,22
+3,bruto,GRU,0,0.838,18
+3,bruto,GRU,1,0.87,17
+3,bruto,GRU,2,0.803,15
+3,bruto,Conv1D+GRU,0,0.883,16
+3,bruto,Conv1D+GRU,1,0.864,15
+3,bruto,Conv1D+GRU,2,0.836,15
+3,MM,Random Forest,0,0.929,24
+3,MM,Random Forest,1,0.922,24
+3,MM,Random Forest,2,0.916,22
+3,MM,CNN-1D,0,0.858,27
+3,MM,CNN-1D,1,0.906,22
+3,MM,CNN-1D,2,0.927,30
+3,MM,GRU,0,0.815,20
+3,MM,GRU,1,0.82,17
+3,MM,GRU,2,0.76,16
+3,MM,Conv1D+GRU,0,0.866,30
+3,MM,Conv1D+GRU,1,0.84,16
+3,MM,Conv1D+GRU,2,0.886,17
+3,FFT,Random Forest,0,0.932,18
+3,FFT,Random Forest,1,0.919,17
+3,FFT,Random Forest,2,0.919,17
+3,FFT,CNN-1D,0,0.909,25
+3,FFT,CNN-1D,1,0.86,23
+3,FFT,CNN-1D,2,0.916,29
+3,FFT,GRU,0,0.846,19
+3,FFT,GRU,1,0.836,16
+3,FFT,GRU,2,0.805,16
+3,FFT,Conv1D+GRU,0,0.859,16
+3,FFT,Conv1D+GRU,1,0.9,17
+3,FFT,Conv1D+GRU,2,0.873,16
+3,Ambas,Random Forest,0,0.935,24
+3,Ambas,Random Forest,1,0.926,25
+3,Ambas,Random Forest,2,0.933,25
+3,Ambas,CNN-1D,0,0.936,27
+3,Ambas,CNN-1D,1,0.915,24
+3,Ambas,CNN-1D,2,0.926,29
+3,Ambas,GRU,0,0.805,19
+3,Ambas,GRU,1,0.745,17
+3,Ambas,GRU,2,0.767,18
+3,Ambas,Conv1D+GRU,0,0.864,19
+3,Ambas,Conv1D+GRU,1,0.861,24
+3,Ambas,Conv1D+GRU,2,0.868,20

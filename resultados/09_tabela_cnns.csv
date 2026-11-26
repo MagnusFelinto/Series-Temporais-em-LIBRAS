@@ -1,0 +1,5 @@
+modelo,F1 macro (%),acurácia bal. (%),parâmetros,treino (s),s/época,inferência (ms/vídeo),conjunto 3 sementes (%),ganho do conjunto (p.p.),Δ vs CNN-1D (p.p.),p (Wilcoxon),pares melhores
+CNN-1D,90.5 ± 2.7,91.1,"197,012",45,0.68,1.28,91.6 ± 3.0,+1.1,—,—,—
+FCN,90.8 ± 2.5,91.3,"595,988",53,0.74,1.34,91.6 ± 2.2,+0.8,+0.3,0.910,7/12
+ResNet,84.7 ± 5.9,85.5,"693,460",80,1.65,2.97,89.2 ± 3.6,+4.5,-5.8,0.009,1/12
+InceptionTime,87.3 ± 3.2,88.0,"230,100",92,1.67,3.44,90.3 ± 3.3,+3.0,-3.2,0.009,2/12

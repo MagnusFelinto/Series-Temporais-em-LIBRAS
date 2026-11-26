@@ -1,0 +1,6 @@
+# Extração dos keypoints a partir dos vídeos (Python 3.10–3.12; o mediapipe 0.10.14 não roda no 3.13)
+mediapipe==0.10.14
+opencv-python<4.11
+numpy<2
+pandas
+requests

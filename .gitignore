@@ -1,0 +1,10 @@
+# dados grandes: só o minds_st.npz (35 MB) vai para o repositório
+dados/*
+!dados/minds_st.npz
+!dados/duracoes_amostra_minds.csv
+__pycache__/
+.ipynb_checkpoints/
+
+# vídeos da demonstração (grandes demais para o GitHub)
+resultados/10_demo/*.mp4
+resultados/10_demo/clipes/*.mp4

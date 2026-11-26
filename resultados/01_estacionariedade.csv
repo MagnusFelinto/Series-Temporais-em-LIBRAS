@@ -1,0 +1,9 @@
+canal,série,ADF rejeita H0 (estacionária) %,KPSS rejeita H0 (não estac.) %,|Δ média| metades / desvio,razão de variâncias metades
+punho dom. x,nível,4.15,5.27,0.39,1.11
+punho dom. x,1ª diferença,17.1,48.62,1.05,0.96
+punho dom. y,nível,0.09,0.09,0.21,1.0
+punho dom. y,1ª diferença,30.66,92.49,1.22,0.6
+ponta do indicador x,nível,11.05,4.49,0.41,1.24
+ponta do indicador x,1ª diferença,34.28,25.56,0.53,0.86
+formato: indicador y,nível,13.82,0.35,0.32,1.05
+formato: indicador y,1ª diferença,46.55,18.39,0.56,0.69

@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering\footnotesize
+\caption{Ablação: $\Delta$F1 (p.p.) de cada técnica em relação ao sinal bruto (Wilcoxon pareado: * $p<0{,}05$, ** $p<0{,}01$, *** $p<0{,}001$).}\label{tab:ablacao}
+\begin{tabular}{llccccc}
+\toprule
+modelo & bruto & MM (k=3) & FFT (K=10) & MM + FFT & $\Delta$ & X + $\Delta$ \\
+\midrule
+Random Forest & 89{,}0 & +0{,}4 & -0{,}1 & +0{,}1 & -12{,}5*** & +0{,}2 \\
+CNN-1D & 91{,}2 & -0{,}2 & -0{,}8 & +0{,}2 & +2{,}2* & +1{,}5** \\
+GRU & 83{,}8 & -5{,}5** & -0{,}5 & -7{,}0*** & -13{,}2*** & -1{,}4 \\
+Conv1D+GRU & 88{,}4 & -0{,}6 & -0{,}1 & -1{,}9 & -15{,}6*** & -0{,}9 \\
+\bottomrule
+\end{tabular}
+\end{table}

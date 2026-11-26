@@ -1,0 +1,7 @@
+modelo,original,larga,"dropout 0,5",lr 3e-4,escolhida
+CNN-1D,92.4,92.0,92.0,92.7,lr 3e-4
+WaveNet,91.6,90.2,89.6,88.5,original
+SimpleRNN,49.3,52.5,51.1,53.4,lr 3e-4
+LSTM,82.2,84.8,85.2,79.9,"dropout 0,5"
+GRU,84.2,84.9,82.5,82.2,larga
+Conv1D+GRU,89.7,90.7,90.3,90.6,larga

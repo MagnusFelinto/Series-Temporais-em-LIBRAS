@@ -1,0 +1,7 @@
+modelo,configuração escolhida,F1 teste calibrado (%),"F1 teste original, notebook 03 (%)"
+CNN-1D,lr 3e-4,91.1 ± 2.2,91.3 ± 2.5
+WaveNet,original,87.9 ± 2.5,87.9 ± 2.3
+SimpleRNN,lr 3e-4,53.9 ± 4.6,46.4 ± 10.2
+LSTM,"dropout 0,5",78.0 ± 3.8,78.2 ± 3.1
+GRU,larga,83.9 ± 3.8,84.3 ± 3.7
+Conv1D+GRU,larga,88.6 ± 1.7,89.0 ± 1.4

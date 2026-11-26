@@ -1,0 +1,6 @@
+,acuracia,acuracia,acuracia_balanceada,acuracia_balanceada,f1_macro,f1_macro
+,mean,std,mean,std,mean,std
+modelo,,,,,,
+Classe majoritária,0.052,0.002,0.05,0.0,0.005,0.0
+Random Forest,0.755,0.031,0.752,0.037,0.743,0.043
+XGBoost,0.739,0.036,0.735,0.045,0.723,0.056

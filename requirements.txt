@@ -1,0 +1,14 @@
+# Notebooks 00–08 (Python 3.10–3.12)
+# Com GPU NVIDIA no Linux/WSL2: pip install "tensorflow[and-cuda]==2.21.*"
+tensorflow==2.21.*
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+tslearn
+statsmodels
+matplotlib
+nbformat
+nbconvert
+ipykernel

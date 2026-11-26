@@ -1,0 +1,11 @@
+modelo,estrategia,25%,50%,75%,100%
+CNN-1D,Direta,69.6,90.5,90.9,91.2
+CNN-1D,Modelo único,69.9,89.7,89.5,90.0
+CNN-1D,Sem adaptação,58.0,90.3,91.0,91.2
+GRU,Direta,76.5,87.1,89.4,83.8
+GRU,Modelo único,68.8,86.0,86.1,77.6
+GRU,Sem adaptação,42.4,74.7,81.7,83.8
+Random Forest,Direta,75.3,88.3,88.7,89.0
+WaveNet,Direta,67.6,85.7,88.0,87.6
+WaveNet,Modelo único,67.1,84.8,85.4,85.1
+WaveNet,Sem adaptação,55.9,84.2,87.4,87.6

@@ -1,0 +1,24 @@
+tipo,palavra,previsto,confiança (%),sinalizante,rodada (modelo),decide em (% do sinal),arquivo
+acerto,acontecer,acontecer,100.0,9,0,12.0,01AcontecerSinalizador09-2.mp4
+acerto,aluno,aluno,100.0,2,1,9.0,02AlunoSinalizador02-5.mp4
+acerto,amarelo,amarelo,100.0,1,0,19.0,03AmareloSinalizador01-4.mp4
+acerto,américa,américa,100.0,9,0,16.0,04AmericaSinalizador09-1.mp4
+acerto,aproveitar,aproveitar,99.9,1,0,31.0,05AproveitarSinalizador01-2.mp4
+acerto,bala,bala,100.0,5,0,25.0,06BalaSinalizador05-4.mp4
+acerto,banco,banco,100.0,12,3,22.0,07BancoSinalizador12-5.mp4
+acerto,banheiro,banheiro,99.7,10,1,25.0,08BanheiroSinalizador10-3.mp4
+acerto,barulho,barulho,100.0,2,1,19.0,09BarulhoSinalizador02-1.mp4
+acerto,cinco,cinco,100.0,11,2,16.0,10CincoSinalizador11-4.mp4
+acerto,conhecer,conhecer,100.0,12,3,16.0,11ConhecerSinalizador12-3.mp4
+acerto,espelho,espelho,100.0,6,1,22.0,12EspelhoSinalizador06-5.mp4
+acerto,esquina,esquina,100.0,5,0,31.0,13EsquinaSinalizador05-3.mp4
+acerto,filho,filho,100.0,6,1,9.0,14FilhoSinalizador06-1.mp4
+acerto,maçã,maçã,100.0,7,2,25.0,15MacaSinalizador07-4.mp4
+acerto,medo,medo,100.0,4,3,22.0,16MedoSinalizador04-1.mp4
+acerto,ruim,ruim,100.0,8,3,19.0,17RuimSinalizador08-2.mp4
+acerto,sapo,sapo,99.8,3,2,25.0,18SapoSinalizador03-2.mp4
+acerto,vacina,vacina,99.9,4,3,19.0,19VacinaSinalizador04-3.mp4
+acerto,vontade,vontade,100.0,11,2,9.0,20VontadeSinalizador11-4.mp4
+erro,aluno,amarelo,98.7,7,2,19.0,02AlunoSinalizador07-3.mp4
+erro,aluno,vacina,97.9,4,3,31.0,02AlunoSinalizador04-4.mp4
+erro,medo,filho,97.5,1,0,28.0,16MedoSinalizador01-5.mp4

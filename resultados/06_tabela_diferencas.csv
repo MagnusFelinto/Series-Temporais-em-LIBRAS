@@ -1,0 +1,13 @@
+modelo,técnica,F1 macro (%),Δ vs bruto (p.p.),p (Wilcoxon),pares que melhoraram
+Random Forest,bruto,89.0 ± 3.6,—,—,—
+Random Forest,Δ,76.5 ± 4.0,-12.5,0.000,0/12
+Random Forest,X + Δ,89.2 ± 3.6,+0.2,0.569,6/12
+CNN-1D,bruto,90.5 ± 2.1,—,—,—
+CNN-1D,Δ,92.6 ± 3.6,+2.2,0.034,10/12
+CNN-1D,X + Δ,91.9 ± 2.0,+1.5,0.009,10/12
+GRU,bruto,83.8 ± 2.2,—,—,—
+GRU,Δ,70.5 ± 4.2,-13.2,0.000,0/12
+GRU,X + Δ,82.4 ± 3.4,-1.4,0.266,5/12
+Conv1D+GRU,bruto,88.0 ± 2.6,—,—,—
+Conv1D+GRU,Δ,72.3 ± 5.8,-15.6,0.000,0/12
+Conv1D+GRU,X + Δ,87.1 ± 2.2,-0.9,0.424,5/12
