@@ -1,18 +1,18 @@
-grupo,modelo,entrada,F1 macro (%),acurácia (%),F1 calibrada (%),config. calibrada
-Baseline ingênua,Classe majoritária,—,0.5 ± 0.0,5.2,—,—
-Baseline clássica,1-NN + DTW,série (z-score),61.5 ± 6.0,62.1,—,—
-A1 · Tabular,Árvore de Decisão,32 lags × 321,71.2 ± 2.7,72.2,—,—
-A2 · Tabular,Random Forest,32 lags × 321,89.0 ± 3.6,90.2,—,—
-A2 · Tabular,XGBoost,32 lags × 321,87.6 ± 3.7,88.5,—,—
-B1 · Convolucional,CNN-1D,série bruta,91.3 ± 2.5,92.0,91.1 ± 2.2,lr 3e-4
-B2 · Convolucional,WaveNet,série bruta,87.9 ± 2.3,88.7,87.9 ± 2.5,original
-C1 · Recorrente,SimpleRNN,série bruta,46.4 ± 10.2,48.1,53.9 ± 4.6,lr 3e-4
-C2 · Recorrente,LSTM,série bruta,78.2 ± 3.1,79.6,78.0 ± 3.8,"dropout 0,5"
-C3 · Recorrente,GRU,série bruta,84.3 ± 3.7,85.2,83.9 ± 3.8,larga
-D · Híbrido,Conv1D+GRU,série bruta,89.0 ± 1.4,89.6,88.6 ± 1.7,larga
-Melhor combinação,CNN-1D,1ª diferença (Δ),92.6 ± 3.6,93.5,—,—
-E · Bônus I,Transformer multicanal,série bruta (patches de 4),90.4 ± 1.9,91.2,—,—
-E · Bônus I,PatchTST,série bruta (patches de 4),79.0 ± 8.3,80.3,—,—
-E · Bônus II,FCN,série bruta,90.8 ± 2.5,91.5,—,—
-E · Bônus II,ResNet,série bruta,84.7 ± 5.9,85.7,—,—
-E · Bônus II,InceptionTime,série bruta,87.3 ± 3.2,88.2,—,—
+grupo,modelo,entrada,F1 macro (%),acurácia (%),acurácia balanceada (%),F1 calibrada (%),config. calibrada
+Baseline ingênua,Classe majoritária,—,0.5 ± 0.0,5.2,5.0,—,—
+Baseline clássica,1-NN + DTW,série (z-score),61.5 ± 6.0,62.1,61.8,—,—
+A1 · Tabular,Árvore de Decisão,32 lags × 321,71.2 ± 2.7,72.2,72.2,—,—
+A2 · Tabular,Random Forest,32 lags × 321,89.0 ± 3.6,90.2,89.8,—,—
+A2 · Tabular,XGBoost,32 lags × 321,87.6 ± 3.7,88.5,88.1,—,—
+B1 · Convolucional,CNN-1D,série bruta,91.6 ± 2.0,92.3,92.0,91.1 ± 2.2,lr 3e-4
+B2 · Convolucional,WaveNet,série bruta,88.1 ± 2.7,88.8,88.7,87.9 ± 2.5,original
+C1 · Recorrente,SimpleRNN,série bruta,50.1 ± 6.4,51.4,51.5,53.9 ± 4.6,lr 3e-4
+C2 · Recorrente,LSTM,série bruta,79.9 ± 3.7,81.1,80.9,78.0 ± 3.8,"dropout 0,5"
+C3 · Recorrente,GRU,série bruta,84.4 ± 3.7,85.2,85.1,83.9 ± 3.8,larga
+D · Híbrido,Conv1D+GRU,série bruta,89.0 ± 2.4,89.6,89.6,88.6 ± 1.7,larga
+Melhor combinação,CNN-1D,1ª diferença (Δ),92.6 ± 3.6,93.5,93.2,—,—
+E · Bônus I,Transformer multicanal,série bruta (patches de 4),90.4 ± 1.9,91.2,91.0,—,—
+E · Bônus I,PatchTST,série bruta (patches de 4),79.0 ± 8.3,80.3,80.0,—,—
+E · Bônus II,FCN,série bruta,90.8 ± 2.5,91.5,91.3,—,—
+E · Bônus II,ResNet,série bruta,84.7 ± 5.9,85.7,85.5,—,—
+E · Bônus II,InceptionTime,série bruta,87.3 ± 3.2,88.2,88.0,—,—

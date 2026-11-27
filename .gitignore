@@ -8,3 +8,6 @@ __pycache__/
 # vídeos da demonstração (grandes demais para o GitHub)
 resultados/10_demo/*.mp4
 resultados/10_demo/clipes/*.mp4
+
+# backup da 1ª execução do notebook 03 (Colab)
+resultados/_v1_colab_03/
